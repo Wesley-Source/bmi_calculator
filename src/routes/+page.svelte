@@ -23,7 +23,7 @@
       <label class="text-2xl sm:text-2xl md:text-3xl lg:text-3xl flex flex-col">
         Peso (kg):
         <input
-          type="text"
+          type="number"
           bind:value={weight_kg}
           name="weight"
           id="weight"
@@ -34,7 +34,7 @@
       <label class="text-2xl sm:text-2xl md:text-3xl lg:text-3xl flex flex-col">
         Altura (cm):
         <input
-          type="text"
+          type="number"
           bind:value={height_cm}
           name="height"
           id="height"
