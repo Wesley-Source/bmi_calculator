@@ -1,0 +1,37 @@
+@import 'tailwindcss';
+
+:root {
+    --background: #F9F5F6;
+    --ligth-pink: #F8E8EE;
+    --mid-pink: #FDCEDF;
+    --pink: #F2BED1;
+}
+
+html { 
+    min-height: 100%;
+}
+
+body {
+    background: var(--background);
+    margin: 0;
+}
+
+h1, label, h2, h3, h4, p {
+    color: var(--mid-pink);
+    font-family: "Knewave", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+label {
+    text-align: center;
+}
+
+input {
+    filter: drop-shadow(var(--drop-shadow-xl));
+    background-color: var(--background);
+    outline-color: var(--pink);
+    border-radius: var(--radius-2xl);
+    text-align: center;
+    margin-top: 3px;
+}
